@@ -17,7 +17,7 @@ function is_palindrome(str){
 
   }
 
-  if(bag!=bag1){
+  if(bag==bag1){
 
     console.log(str,"yes, This is a palindrome");
 

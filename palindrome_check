@@ -1,0 +1,34 @@
+
+function is_palindrome(str){
+
+  let bag="";
+
+  for(let i=0;i<str.length;i++){
+
+    bag+=str[i];
+
+  }
+
+  let bag1="";
+
+  for(let j=str.length-1;j>=0;j--){
+
+    bag1+=str[j];
+
+  }
+
+  if(bag!=bag1){
+
+    console.log(str,"yes, This is a palindrome");
+
+  } else {
+
+    console.log(str,"No, This is not a palindorme");
+
+  }
+
+}
+
+is_palindrome("bob");
+
+is_palindrome("baba")
